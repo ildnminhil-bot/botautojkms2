@@ -1,0 +1,6 @@
+# Discord self-bot fork (hỗ trợ User Token)
+git+https://github.com/dolfies/discord.py-self.git
+
+# Dependencies
+python-dotenv>=1.0.0
+rapidfuzz>=3.0.0
