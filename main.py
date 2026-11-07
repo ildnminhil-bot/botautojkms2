@@ -32,9 +32,6 @@ logger = logging.getLogger("jockie-controller")
 class JockieController(discord.Client):
     def __init__(self):
         # intents cơ bản
-        intents = discord.Intents.default()
-        intents.message_content = True
-        intents.messages = True
         super().__init__(intents=intents)
         self.history = get_history()
 
